@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.auria-it.tifu" version="1.1.6" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>TiFu Monitor</name>
+    <description>
+		This app is based on the TiFu Tournament-Software. www.tifu.info and send notifications and informations to the players/users.
+    </description>
+    <author email="l.auria@auria-it.de" href="http://auria-it.de">
+        AURIA IT
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="Fullscreen" value="true" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <icon src="res/icon.png" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <splash src="res/splash.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <engine name="android" spec="^6.3.0" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
+    <plugin name="cordova-plugin-local-notification" spec="^0.8.4" />
+    <plugin name="cordova-plugin-background-mode" spec="^0.7.2" />
+</widget>

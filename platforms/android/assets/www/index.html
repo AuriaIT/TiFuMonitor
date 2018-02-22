@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" content="tifu app for player information">
+    <meta name="author" content="AURIA IT | Luciano Auria">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/jquery.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>TiFu Monitor</title>
+</head>
+<body>
+    <div class="app">
+        <div style="padding:15px;"><img src="img/logo.png" /></div>
+        <div id="deviceready">
+            <p class="event listening blink">Loading some awesome data...</p>
+            <div class=" received">
+                
+                <p id="state">Connected with TiFu</p>
+                <div><hr /></div>
+                <div>
+                    <label>DTFB-Spielernummer:</label><br/>
+                    <div style="padding: 0 0 7px 0;"><input type="number" id="spielernrpre" style="width: 45px;" maxlength="2" size="2" name="spielernr_pre" />-<input style="width: 65px;" type="number" maxlength="5" size="5" id="spielernrex" name="spielernr_ex" /></div>
+                    <button class="btn btn-primary" id="confirm">Speichern</button>
+                </div>
+                <div><hr /></div>
+                <p id="output"></p>
+
+            </div>
+            <br />
+            <div class="version">Version 1.1.6</div>
+        </div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquer-min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-min.js"></script>
+    <script type="text/javascript" src="js/fingerprint.js"></script>
+    <script type="text/javascript" src="js/dweet.io.js"></script>
+    <script type="text/javascript" src="js/tifu.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

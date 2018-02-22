@@ -1,0 +1,28 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.auria.zulu"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "com.auria.zulu"
+    },
+    "cordova-plugin-background-mode": {
+      "PACKAGE_NAME": "com.auria.zulu"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.auria.zulu"
+    },
+    "cordova-plugin-app-event": {
+      "PACKAGE_NAME": "com.auria.zulu"
+    }
+  }
+}

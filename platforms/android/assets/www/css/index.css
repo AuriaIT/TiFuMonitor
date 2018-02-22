@@ -1,0 +1,26 @@
+body {
+    background-color:#000;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:14px;
+    height:100%;
+    margin:0;
+    padding:0;
+    text-transform:uppercase;
+    width:100%;
+    color: #FFF;
+}
+
+/* Portrait layout (default) */
+.app {
+	margin: 0 auto;
+    padding-top:30px;
+    width:225px;                   /* text area width */
+    text-align:center
+}
+
+.version {
+    position: absolute;
+    bottom: 10px;
+    width: 225px;
+    text-align: center;
+}

@@ -1,0 +1,116 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-local-notification",
+        "scope": null,
+        "escapedName": "cordova-plugin-local-notification",
+        "name": "cordova-plugin-local-notification",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Sources\\TiFuMonitor\\ionic.app\\zulu"
+    ]
+  ],
+  "_from": "cordova-plugin-local-notification@latest",
+  "_id": "cordova-plugin-local-notification@0.8.4",
+  "_inCache": true,
+  "_location": "/cordova-plugin-local-notification",
+  "_nodeVersion": "4.4.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-local-notification-0.8.4.tgz_1495768409967_0.7697124173864722"
+  },
+  "_npmUser": {
+    "name": "agussaputra",
+    "email": "agus@genesisdigital.asia"
+  },
+  "_npmVersion": "4.5.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-local-notification",
+    "scope": null,
+    "escapedName": "cordova-plugin-local-notification",
+    "name": "cordova-plugin-local-notification",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-local-notification/-/cordova-plugin-local-notification-0.8.4.tgz",
+  "_shasum": "95e0baa3fe40178fa10f8c9ab78a6c94b9ca6ccf",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-local-notification",
+  "_where": "C:\\Sources\\TiFuMonitor\\ionic.app\\zulu",
+  "author": {
+    "name": "Sebastián Katzer"
+  },
+  "bugs": {
+    "url": "https://github.com/katzer/cordova-plugin-local-notifications/issues"
+  },
+  "cordova_name": "Cordova LocalNotification Plugin",
+  "dependencies": {
+    "cordova-plugin-app-event": ">=1.1.0",
+    "cordova-plugin-device": "*"
+  },
+  "deprecated": "this package has been deprecated",
+  "description": "Schedules and queries for local notifications",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "95e0baa3fe40178fa10f8c9ab78a6c94b9ca6ccf",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-local-notification/-/cordova-plugin-local-notification-0.8.4.tgz"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.6.0"
+    },
+    {
+      "name": "cordova-plugman",
+      "version": ">=4.3.0"
+    },
+    {
+      "name": "cordova-windows",
+      "version": ">=4.2.0"
+    }
+  ],
+  "homepage": "https://github.com/katzer/cordova-plugin-local-notifications#readme",
+  "keywords": [
+    "appplant",
+    "notification",
+    "local notification",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows"
+  ],
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "agussaputra",
+      "email": "agus@genesisdigital.asia"
+    }
+  ],
+  "name": "cordova-plugin-local-notification",
+  "optionalDependencies": {},
+  "platforms": [
+    "ios",
+    "android",
+    "windows"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katzer/cordova-plugin-local-notifications.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.8.4"
+}
